@@ -1,3 +1,5 @@
+StockKaggle Data Provider Integration with Time-Series-Library
+
 1. Implemented a New Data Provider: Dataset_StockKaggle
 
 I created a new class Dataset_StockKaggle inside a new file named stock_kaggle.py under the data_provider directory. This class follows the PyTorch Dataset interface and is responsible for loading, preprocessing, and splitting the stock data.

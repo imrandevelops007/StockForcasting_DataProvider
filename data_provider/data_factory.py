@@ -20,6 +20,8 @@ data_dict = {
     #'StockKaggle': Dataset_StockKaggle
 }  
 
+# Test 123
+
 def data_provider(args, flag):
     if args.data == 'StockKaggle':  # ✅ Handle custom dataset early
         size = (args.seq_len, args.label_len, args.pred_len)
